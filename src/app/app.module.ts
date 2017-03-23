@@ -4,20 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TopMainComponent } from './top-main/top-main.component';
+import { MainComponent } from './top/main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { TopDescriptionComponent } from './top-description/top-description.component';
-import { TopCourseIntroductionComponent } from './top-course-introduction/top-course-introduction.component';
+import { DescriptionComponent } from './top/description/description.component';
+import { CourseIntroductionComponent } from './top/course-introduction/course-introduction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopMainComponent,
+    MainComponent,
     HeaderComponent,
     FooterComponent,
-    TopDescriptionComponent,
-    TopCourseIntroductionComponent
+    DescriptionComponent,
+    CourseIntroductionComponent
   ],
   imports: [
     BrowserModule,
