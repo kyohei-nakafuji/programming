@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DescriptionComponent } from './top/description/description.component';
 import { CourseIntroductionComponent } from './top/course-introduction/course-introduction.component';
+import { TopComponent } from './top/top/top.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CourseIntroductionComponent } from './top/course-introduction/course-in
     HeaderComponent,
     FooterComponent,
     DescriptionComponent,
-    CourseIntroductionComponent
+    CourseIntroductionComponent,
+    TopComponent
   ],
   imports: [
     BrowserModule,
