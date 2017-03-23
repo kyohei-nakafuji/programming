@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { TopMainComponent } from './top-main/top-main.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopDescriptionComponent } from './top-description/top-description.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopMainComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TopDescriptionComponent
   ],
   imports: [
     BrowserModule,
