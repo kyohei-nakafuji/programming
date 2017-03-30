@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import {MaterialModule} from '@angular/material';
+import {FlexLayoutModule} from "@angular/flex-layout";
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './top/main/main.component';
@@ -25,6 +26,7 @@ import { TopComponent } from './top/top/top.component';
   ],
   imports: [
     MaterialModule,
+    FlexLayoutModule.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule
