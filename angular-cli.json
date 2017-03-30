@@ -18,7 +18,8 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "../node_modules/@angular/material/core/theming/prebuilt/indigo-pink.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
