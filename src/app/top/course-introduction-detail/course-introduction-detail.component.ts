@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-course-introduction-detail',
@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./course-introduction-detail.component.scss']
 })
 export class CourseIntroductionDetailComponent implements OnInit {
+  @Input() title: string;
+  @Input() imagePath: string;
+  @Input() content: string;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
