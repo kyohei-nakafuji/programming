@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DescriptionComponent } from './top/description/description.component';
 import { CourseIntroductionComponent } from './top/course-introduction/course-introduction.component';
 import { TopComponent } from './top/top/top.component';
+import { CourseIntroductionDetailComponent } from './top/course-introduction-detail/course-introduction-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TopComponent } from './top/top/top.component';
     FooterComponent,
     DescriptionComponent,
     CourseIntroductionComponent,
-    TopComponent
+    TopComponent,
+    CourseIntroductionDetailComponent
   ],
   imports: [
     MaterialModule,
